@@ -1,5 +1,12 @@
 # PCF8574 ⚙️
 
+[![npm Version](http://img.shields.io/npm/v/@johntalton/PCF8574.svg)](https://www.npmjs.com/package/@johntalton/PCF8574)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/johntalton/PCF8574)
+![CI](https://github.com/johntalton/PCF8574/workflows/CI/badge.svg)
+![GitHub](https://img.shields.io/github/license/johntalton/PCF8574)
+[![Downloads Per Month](http://img.shields.io/npm/dm/@johntalton/PCF8574.svg)](https://www.npmjs.com/package/@johntalton/PCF8574)
+![GitHub last commit](https://img.shields.io/github/last-commit/johntalton/PCF8574)
+
 GPIO-like 8bit device with simplistic interface and interrupt support.
 
 ## Behavior
