@@ -1,11 +1,15 @@
 import pluginJs from '@eslint/js'
-import sec from 'eslint-plugin-security'
 
 export default [
+  pluginJs.configs.all,
   {
-    ...pluginJs.configs.all,
-    ...sec.configs.all,
     rules: {
+      "no-bitwise": "off",
+      "no-magic-numbers": "warn",
+      "no-ternary": "off",
+      "no-unneeded-ternary": "error",
+      "one-var": ["error", "never"],
+      "require-await": ["off"]
     }
   }
 ]
