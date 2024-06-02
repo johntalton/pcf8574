@@ -24,8 +24,12 @@ export class PCF8574 {
 	constructor(bus) { this.#bus = bus }
 
 	async readPort() {
-		const portArray = await this.#bus.i2cRead(BYTE_LENGTH_ONE)
-		const [ portValue, ] = new Uint8Array(portArray)
+		const buffer = await this.#bus.i2cRead(BYTE_LENGTH_ONE)
+		const u8 = ArrayBuffer.isView(buffer) ?
+			new Uint8Array(buffer.buffer, buffer.byteOffset, buffer.byteLength) :
+			new Uint8Array(buffer)
+
+		const [ portValue, ] = u8
 
 		return {
 			p0: ((portValue >> OFFSET.P0) & BIT) === BIT,
