@@ -7,16 +7,5 @@
   "type": "module",
   "files": [
     "src/**/*.js"
-  ],
-  "scripts": {
-    "lint": "eslint ."
-  },
-  "devDependencies": {
-   "eslint": "^9.0.0",
-   "eslint-plugin-security": "^3.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:johntalton/pcf8574.git"
-  }
+  ]
 }
