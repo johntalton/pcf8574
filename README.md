@@ -2,8 +2,7 @@
 
 GPIO-like 8bit device with simplistic interface and interrupt support.
 
-
-[![npm Version](http://img.shields.io/npm/v/@johntalton/PCF8574.svg)](https://www.npmjs.com/package/@johntalton/PCF8574)
+[![npm Version](https://img.shields.io/npm/v/@johntalton/pcf8574.svg)](https://www.npmjs.com/package/@johntalton/pcf8574)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/johntalton/PCF8574)
 [![CI](https://github.com/johntalton/pcf8574/actions/workflows/CI.yml/badge.svg)](https://github.com/johntalton/pcf8574/actions/workflows/CI.yml)
 
